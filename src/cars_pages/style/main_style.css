@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+/* NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 25px 20px;
+    font-family: "Good Times";
+    border-bottom: 1px solid rgba(255, 255, 255, 0.363);
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 25px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+}
+.menu a{
+    padding: 0px 20px;
+    color: #fff;
+}
+
+/* FOOTER */
+.footer{
+    border-top: 1px solid rgba(255, 255, 255, 0.363);
+    display: flex;
+    justify-content: center;
+}
+.social{
+    margin: 10px 0;
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.social a{
+    color: white;
+    font-size: 20px;
+    opacity: 0.5;
+    transition: 0.5s ease;
+}
+.social a:hover{
+    opacity: 1;
+}

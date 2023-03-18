@@ -1,0 +1,91 @@
+html, body {
+  height: 100%;
+}
+
+.page {
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
+
+.title {
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-family: Good times;
+  font-size: 15px;
+  transition: all ease-in-out;
+  display: flex;
+}
+
+.titleText {
+  color: #fff;
+  display: inline-block;
+  position: relative;
+}
+
+.titleText:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  transform-origin: 100% 100%;
+  background-color: #fff;
+  transition: transform .25s ease-out;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+}
+
+.titleText:hover:after {
+  transform-origin: 0 100%;
+  transform: scaleX(1);
+}
+
+.carsBox {
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+  display: flex;
+}
+
+.carsBox .box {
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+}
+
+.carsBox .box .image {
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  transition: all .5s;
+  display: block;
+}
+
+.text {
+  color: #fff;
+  opacity: 0;
+  text-align: center;
+  font-family: Good times;
+  font-size: 20px;
+  transition: all .5s ease-in-out;
+  position: absolute;
+}
+
+.box:hover .image {
+  opacity: .2;
+  transform: scale(1.1);
+}
+
+.box:hover .text {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=index.5b3980c9.css.map */

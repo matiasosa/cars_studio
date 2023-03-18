@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main_style.css">
+    <link rel="stylesheet" href="./style/cars_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Car 1</title>
+</head>
+<body>
+    <div id="carID" style="display: none;" value="1"></div>
+    <div class="carPage">
+        <nav class="navbar">
+            <div class="logo"><a href="/">Cars <span>studio.</span></a></div>
+            <div class="brand">PORSCHE</div>
+            <ul class="menu">
+                <li><a href="car2.html">Car 2</a></li>
+                <li><a href="car3.html">Car 3</a></li>
+            </ul>
+        </nav>
+        
+        <div id="canvasDiv" class="carDiv">
+            <canvas id="canvasID" class="carObject"></canvas>
+        </div>
+    
+        <footer class="footer">
+            <div class="social">
+                <a href="https://www.linkedin.com/in/matias-nicol%C3%A1s-sosa-liuni-58a21623b/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                <a href="https://github.com/matiasosa" target="_blank"><i class="fa fa-github"></i></a>
+            </div>
+        </footer>
+    </div>
+    <script src="./cars_js/car.js" type="module"></script>
+</body>
+</html>

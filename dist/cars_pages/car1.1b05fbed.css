@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+}
+
+.brand {
+  color: #fff;
+}
+
+.carPage {
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
+
+.carDiv {
+  justify-content: center;
+  display: flex;
+}
+
+/*# sourceMappingURL=car1.1b05fbed.css.map */

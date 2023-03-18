@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-color: #171717;
+  border-bottom: 1px solid #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 10px;
+  font-family: Ubuntu, sans-serif;
+  display: flex;
+}
+
+.navbar .logo a {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu a {
+  color: #fff;
+  padding: 0 20px;
+}
+
+/*# sourceMappingURL=car1.7fa73f78.css.map */

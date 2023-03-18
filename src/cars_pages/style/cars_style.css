@@ -1,0 +1,22 @@
+html, body{
+    height: 100%;
+}
+
+.brand{
+    color: white;
+}
+
+.carPage{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.carDiv{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    height: 100%;
+}
+
